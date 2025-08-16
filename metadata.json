@@ -1,0 +1,7 @@
+{
+  "name": "My Color Studio",
+  "description": "An AI-based personal beauty consulting platform that analyzes your skin tone and makeup to provide personalized color and product recommendations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
