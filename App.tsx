@@ -64,8 +64,8 @@ const App: React.FC = () => {
     };
 
     return (
-        <div className="bg-brand-background min-h-screen text-charcoal">
-            <div className="max-w-md mx-auto bg-white min-h-screen shadow-lg">
+        <div className="min-h-screen text-charcoal">
+            <div className="max-w-md mx-auto bg-white min-h-screen">
                 {renderPage()}
             </div>
         </div>
