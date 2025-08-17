@@ -29,7 +29,7 @@ const AnalysisPage: React.FC<AnalysisPageProps> = ({ userImage, onAnalysisComple
 
         const performAnalysis = async () => {
             try {
-                const result = await generateBeautyProfile();
+                const result = await generateBeautyProfile(userImage);
                 onAnalysisComplete(result);
             } catch (error) {
                 console.error("Analysis failed:", error);
